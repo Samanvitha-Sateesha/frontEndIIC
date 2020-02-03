@@ -131,7 +131,16 @@ ul ul, ul ol, ol ul, ol ol {
   position: relative;
 }
 #fh5co-header #fh5co-logo a {
-  display: block;
+  display: inline;
+}
+#fh5co-header #fh5co-logo .img-iic{
+  /* margin-bottom: 75px; */
+  height: 130px;
+  max-height: 200px;
+  width: 210px;
+}
+#fh5co-header #fh5co-logo .img-jss{
+  height: 90px;
 }
 
 #fh5co-hero {
@@ -177,7 +186,7 @@ ul ul, ul ol, ol ul, ol ol {
 }
 @media screen and (max-width: 480px) {
   #fh5co-hero .fh5co-hero-text-wrap {
-    padding-top: 0px;
+    padding-top: 100px;
   }
 }
 #fh5co-hero .fh5co-hero-text-wrap .fh5co-hero-text {
